@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 /**
- * newsId join
+ * this show how to use MultipleOutputs
  */
 public class MultipleoutputsMain {
           public static void main(String[] args) throws Exception{

@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
- * Created by baoyu on 16/10/22.
+ * this show how to get sum and average
  */
 public class CountAverageMain {
     public static void main(String[] args) throws Exception {

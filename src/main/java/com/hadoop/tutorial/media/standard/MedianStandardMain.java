@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
- * Created by baoyu on 16/10/22.
+ * this show how to get standard deviation
  */
 public class MedianStandardMain {
 

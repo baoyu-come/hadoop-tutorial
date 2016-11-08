@@ -8,6 +8,9 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+/**
+ * this show how to get the max
+ */
 public class MaxTemperature {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {

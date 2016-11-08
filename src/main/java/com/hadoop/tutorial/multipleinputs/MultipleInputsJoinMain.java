@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 /**
- * newsId join
+ * this show how to  use MultipleInputs and Join two file by the same key
  */
 public class MultipleInputsJoinMain  {
           public static void main(String[] args) throws Exception{
