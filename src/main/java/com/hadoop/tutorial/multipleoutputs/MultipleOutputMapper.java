@@ -15,7 +15,7 @@ public class MultipleOutputMapper extends Mapper<Object,Text,Text,NullWritable> 
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
-        mo = new MultipleOutputs<>(context);
+        mo = new MultipleOutputs<Text,NullWritable>(context);
     }
 
     @Override
