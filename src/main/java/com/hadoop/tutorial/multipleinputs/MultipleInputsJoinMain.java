@@ -11,6 +11,23 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 /**
  * this show how to  use MultipleInputs and Join two file by the same key
+ *
+ * usage:
+ *
+ * input1 news data:
+ *          111#come on
+ *          333#go on
+ *          222#keep on
+ * input2 news comments data:
+ *          111#aaa#how
+ *          111#bbb#what
+ *          222#ccc#why
+ * output data:
+ *          part-m-000000.txt
+ *                  111#come on#aaa#how#bbb#what
+ *                  222#keep on#ccc#why
+ *                  333#go on
+ *
  */
 public class MultipleInputsJoinMain  {
           public static void main(String[] args) throws Exception{

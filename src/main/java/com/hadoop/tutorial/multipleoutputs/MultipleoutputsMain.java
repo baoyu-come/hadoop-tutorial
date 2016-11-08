@@ -12,6 +12,19 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 /**
  * this show how to use MultipleOutputs
+ * usage:
+ *
+ * input data:
+ *          I love hadoop
+ *          I love pig
+ *          I love habse
+ * output data:
+ *          hbase-m-000000.txt
+ *                      I love hbase
+ *          pig-m-000000.txt
+ *                      I love pig
+ *          hadoop-m-000000.txt
+ *                      I love hadoop
  */
 public class MultipleoutputsMain {
           public static void main(String[] args) throws Exception{
