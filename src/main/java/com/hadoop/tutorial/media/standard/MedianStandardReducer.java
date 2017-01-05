@@ -29,7 +29,7 @@ public class MedianStandardReducer extends Reducer<IntWritable,IntWritable,IntWr
             Collections.sort(commentLengths);
             //average : even value,average midlle two elements
             if(count % 2 == 0){
-                result.setMedian((commentLengths.get((int)count/2-1))+commentLengths.get((int)count/2)/2.0f);
+                result.setMedian((commentLengths.get((int)count/2-1)+commentLengths.get((int)count/2)/2.0f));
             }else{
                 result.setMedian(commentLengths.get((int)count/2));
             }
